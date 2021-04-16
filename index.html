@@ -28,13 +28,13 @@ body{
 
 <script>
     var weekday = new Array(7);
-    weekday[0] = "Poniedziałek";
-    weekday[1] = "Wtorek";
-    weekday[2] = "Środa";
-    weekday[3] = "Czwartek";
-    weekday[4] = "Piątek";
-    weekday[5] = "Sobota";
-    weekday[6] = "Niedziela";
+    weekday[0] = "Niedziela";
+    weekday[1] = "Poniedziałek";
+    weekday[2] = "Wtorek";
+    weekday[3] = "Środa";
+    weekday[4] = "Czwartek";
+    weekday[5] = "Piątek";
+    weekday[6] = "Sobota";
 
     
     var today = new Date();
@@ -52,6 +52,6 @@ body{
         greet = 'Dobry wieczór  ';
 
     document.getElementById('lbl').innerHTML =
-        greet+= "Sebastian " +`<div id="date"> It's ${date}</div>`;
+        greet+= "Sebastian " +`<div id="date"> Dzisiejszy dzień to ${date}</div>`;
 </script> 
 </html>
